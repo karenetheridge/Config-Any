@@ -5,6 +5,7 @@ use 5.006;
 my %META = (
   name => 'Config-Any',
   license => 'perl_5',
+  dynamic_config => 0,
   prereqs => {
     test => { requires => {
       'Test::More'  => 0,
